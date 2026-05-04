@@ -21,6 +21,9 @@ const UserSchema = new mongoose.Schema({
     type: String,
     required: [true, 'Please add a business name']
   },
+  whatsappNumber: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now
